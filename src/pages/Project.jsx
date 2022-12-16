@@ -20,7 +20,7 @@ const Project = () => {
             <div className="detailed-container mt-50">
                 {item ? (
                     <div className="project">
-                        <div className="flex gap-20">
+                        <div className="flex gap-20 align-center">
                             <div className="project-card">
                                 <div className="project-card-code">
                                     {item.code}
@@ -33,10 +33,28 @@ const Project = () => {
                                 <h1 className="project-title">
                                     {item.name}
                                 </h1>
+                                <div className="tip">
+                                    Address
+                                </div>
                                 <h4 className="project-location">
                                     {item.location}
                                 </h4>
                             </div>
+                        </div>
+                        <div className="tip mt-10">
+                            Size
+                        </div>
+                        <h5 className="project-size">
+                            {item.size}
+                        </h5>
+                        <div className="tip">
+                            Firm
+                        </div>
+                        <h5 className="project-size">
+                            {item.firm}
+                        </h5>
+                        <div className="tip mt-20">
+                            Description
                         </div>
                         <p className="project-description" onClick={() => setShowMore(!showMore)}>
                             {item.description.slice(0, 200)}

@@ -83,6 +83,9 @@ body {
 .flex-column {
   flex-direction: column;
 }
+.align-center {
+  align-items: center;
+}
 .gap-20 {
   gap: 20px;
 }
@@ -141,6 +144,12 @@ body {
 }
 .mt-50 {
   margin-top: 50px;
+}
+.mt-10 {
+  margin-top: 10px;
+}
+.mt-20 {
+  margin-top: 20px;
 }
 .pt-50 {
   padding-top: 50px;

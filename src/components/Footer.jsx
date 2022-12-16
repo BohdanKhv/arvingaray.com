@@ -3,7 +3,7 @@ import './styles/Footer.css'
 
 const Footer = () => {
     return (
-        <div className="footer">
+        <footer className="footer">
             <h3>
                 © Arvin Garay
             </h3>
@@ -13,7 +13,7 @@ const Footer = () => {
                     Bohdan Khvorostovskyi
                 </a>
             </small>
-        </div>
+        </footer>
     )
 }
 

@@ -11,6 +11,7 @@
     animation-name: fadeIn;
     animation-fill-mode: forwards;
     animation-duration: 1s;
+    user-select: none;
 }
 
 .card:hover {

@@ -12,6 +12,7 @@
     animation-name: fadeIn;
     animation-fill-mode: forwards;
     animation-duration: 1s;
+    user-select: none;
 }
 
 .project-card:hover {
@@ -33,6 +34,12 @@
     justify-content: center;
 }
 
+.tip {
+    font-size: 10px;
+    color: #fff;
+    opacity: 0.5;
+}
+
 .project-card-code {
     font-size: 20px;
 }
@@ -51,16 +58,20 @@
 }
 
 .project-location {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
-    opacity: 0.5;
+    color: #fff;
+}
+
+.project-size {
+    font-size: 10px;
+    font-weight: 400;
     color: #fff;
 }
 
 .project-description {
     font-size: 14px;
     color: #fff;
-    margin-top: 20px;
     cursor: pointer;
     transition-duration: var(--transition-duration);
 }
