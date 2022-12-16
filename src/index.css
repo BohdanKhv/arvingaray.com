@@ -1,5 +1,7 @@
 :root {
+  --box-shadow-sm: 6px 6px 0 #000;
   --box-shadow: 12px 12px 0 #000;
+  --box-shadow-light-sm: 6px 6px 0 #fff;
   --box-shadow-light: 12px 12px 0 #fff;
   --border:  2px solid #000;
   --border-light:  2px solid #fff;
