@@ -9,9 +9,9 @@ const Contact = () => {
 
   return (
     <section>
-      <h1 className="title">
+      <span className="title">
           CONTACT
-      </h1>
+      </span>
       <div className="flex flex-column mt-50 gap-40">
         <a href={`mailto:${user.email}`} className="link" 
           target="_blank" rel="noreferrer">

@@ -11,9 +11,9 @@ const Projects = () => {
 
     return (
         <section className="projects">
-            <h1 className="title">
+            <span className="title">
                 PROJECTS
-            </h1>
+            </span>
             <div className="projects-container mt-50">
                 {portfolio.map((item, index) => (
                     <Card key={`${index}-project`} item={item} index={index} />

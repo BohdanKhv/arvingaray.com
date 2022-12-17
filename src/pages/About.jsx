@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import Img from '../components/Img'
 import { user } from '../data'
 
 const About = () => {
@@ -17,10 +18,28 @@ const About = () => {
 
     return (
         <section className="about">
-            <h1 className="title">
-                ABOUT
-            </h1>
-            <div className="mt-50">
+            <div className="flex gap-40 wrap-950">
+                <div className="about-img">
+                    <div>
+                        <Img img={`/assets/photo.jpg`} alt="Photo" />
+                    </div>
+                </div>
+                <div>
+                    <span className="title">
+                        {user.name.toUpperCase()}
+                    </span>
+                    <br />
+                    <h4 className="title-secondary mt-50">
+                        {user.occupation.split(' / ').map((item, index) => (
+                            <span key={`${index}-occupation`}>
+                                {'//'} {item}
+                                <br />
+                            </span>
+                        ))}
+                    </h4>
+                </div>
+            </div>
+            <div className="mt-50 flex flex-wrap gap-40">
                 <p className="about h-100">
                     {user.about.slice(0, showLetter)}<span className="blink">|</span>
                 </p>

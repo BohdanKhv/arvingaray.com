@@ -1,5 +1,4 @@
 import { Link, useLocation } from 'react-router-dom'
-import { Img } from './'
 import { user } from '../data'
 import './styles/Nav.css'
 
@@ -10,11 +9,6 @@ const Nav = () => {
   return (
     <nav className="nav">
       <div className="nav-container">
-        <div className="nav-img">
-          <div>
-            <Img img={`/assets/photo.jpg`} alt="Photo" />
-          </div>
-        </div>
         <div className={`nav-name${location.pathname === '/' ? ' active' : ''}`}>
           <Link to="/">
             <h1>{user.name}</h1>
