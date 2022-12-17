@@ -1,6 +1,6 @@
 const user = {
     name: "Arvin Garay",
-    occupation: "Architecture / Project Management / Design",
+    occupation: "Architecture | Project Management | Design",
     email: "arvingaray@gmail.com ",
     phone: "",
     instagram: "https://www.instagram.com/arvin.garay",

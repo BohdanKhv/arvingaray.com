@@ -12,9 +12,9 @@ const Nav = () => {
         <div className={`nav-name${location.pathname === '/' ? ' active' : ''}`}>
           <Link to="/">
             <h1>{user.name}</h1>
-            <h5>{user.occupation}</h5>
           </Link>
         </div>
+        <hr />
         <div className="nav-items">
           <div className={`nav-item${location.pathname === '/about' ? ' active' : ''}`}>
             <Link to="/about">ABOUT</Link>

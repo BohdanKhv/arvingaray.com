@@ -30,18 +30,20 @@ const About = () => {
                     </span>
                     <br />
                     <h4 className="title-secondary mt-50">
-                        {user.occupation.split(' / ').map((item, index) => (
+                        {user.occupation.split(' | ').map((item, index) => (
                             <span key={`${index}-occupation`}>
-                                {'//'} {item}
+                                {'-'} {item}
                                 <br />
                             </span>
                         ))}
                     </h4>
                 </div>
             </div>
-            <div className="mt-50 flex flex-wrap gap-40">
+            <div className="mt-50">
                 <p className="about h-100">
-                    {user.about.slice(0, showLetter)}<span className="blink">|</span>
+                    {user.about.slice(0, showLetter)}
+                    <span className="blink">|</span>
+                    <span className="opacity-none">{user.about.slice(showLetter)}</span>
                 </p>
             </div>
         </section>
