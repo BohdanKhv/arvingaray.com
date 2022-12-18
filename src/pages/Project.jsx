@@ -64,7 +64,7 @@ const Project = () => {
                         <div className="mt-50 gallery">
                             {item.images.map((image, index) => (
                                 <Img key={`${index}-gallery`}
-                                    img={`/assets/projects/${image}`}
+                                    img={`/assets/projects/${item.code}/${image}`}
                                     alt={item.code}
                                     style={{
                                         animationDelay: `${index * 0.1}s`

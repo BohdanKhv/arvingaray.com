@@ -11,7 +11,7 @@ const About = () => {
 
         const interval = setInterval(() => {
             setShowLetter((prev) => prev + 1)
-        }, 10)
+        }, 1)
 
         return () => clearInterval(interval)
     }, [])
