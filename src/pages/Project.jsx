@@ -12,7 +12,7 @@ const Project = () => {
     useEffect(() => {
         window.scrollTo(0, 0)
         document.title = `Arvin Garay | ${item ? item.name : 'Project'} | Portfolio | Architect | Project Manager | Designer | Building Science`
-    }, [])
+    }, [item])
 
     return (
         <section className="project-detailed">
