@@ -34,9 +34,9 @@ const Project = () => {
                                     {item.name}
                                 </h1>
                                 <div className="tip">
-                                    Address
+                                    Location
                                 </div>
-                                <h4 className="project-location">
+                                <h4 className="project-size">
                                     {item.location}
                                 </h4>
                             </div>
@@ -53,7 +53,7 @@ const Project = () => {
                         )}
                         {item.firm !== 'N/A' && (
                             <>
-                                <div className="tip">
+                                <div className="tip mt-10">
                                     Firm
                                 </div>
                                 <h5 className="project-size">
@@ -63,7 +63,7 @@ const Project = () => {
                         )}
                         {item.description.length > 1 && (
                             <>
-                                <div className="tip mt-20">
+                                <div className="tip mt-10">
                                     Description
                                 </div>
                                 <p className="project-description" onClick={() => setShowMore(!showMore)}>

@@ -1,9 +1,11 @@
 import { useEffect, useState } from 'react'
+import { useLocation } from 'react-router-dom'
 import Img from '../components/Img'
 import { user } from '../data'
 
 const About = () => {
     const [showLetter, setShowLetter] = useState(1)
+    const location = useLocation()
 
     useEffect(() => {
         window.scrollTo(0, 0)
@@ -19,11 +21,13 @@ const About = () => {
     return (
         <section className="about">
             <div className="flex gap-40 wrap-950">
+                {location.pathname === '/about' && (
                 <div className="about-img">
                     <div>
                         <Img img={`/assets/photo.jpg`} alt="Photo" />
                     </div>
                 </div>
+                )}
                 <div>
                     <span className="title">
                         {user.name.toUpperCase()}

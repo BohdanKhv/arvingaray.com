@@ -1,6 +1,6 @@
 const user = {
     name: "Arvin Garay",
-    occupation: "Architecture | Project Management | Design",
+    occupation: "Architecture | Project Management | Design | Building Science | Writing",
     email: "arvingaray@gmail.com ",
     phone: "",
     instagram: "https://www.instagram.com/arvin.garay",
@@ -21,58 +21,58 @@ const user = {
 
 const portfolio = [
     {
-        id: "0000",
+        id: "0120",
         code: "Aa",
-        name: "N/A",
-        location: "N/A",
-        size: "N/A",
-        firm: "N/A",
+        name: "Arte Povera",
+        location: "Río Piedras, Puerto Rico",
+        size: "Various",
+        firm: "Prepa Design Studio",
         description: "",
         images: ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg", "7.jpg", "8.jpg"]
     },
     {
-        id: "0000",
+        id: "0140",
         code: "Mh",
-        name: "N/A",
-        location: "N/A",
-        size: "N/A",
-        firm: "N/A",
+        name: "Antropology and History Museum",
+        location: "Puerta de Tierra, Puerto Rico",
+        size: "100,000 sq. ft.",
+        firm: "Fourth Year Studio",
         description: "",
         images: ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg", "7.jpg", "8.jpg", "9.jpg", "10.jpg"]
     },
     {
-        id: "0000",
+        id: "0160",
         code: "J5",
-        name: "N/A",
-        location: "N/A",
-        size: "N/A",
-        firm: "N/A",
+        name: "Casa Jota Cinco",
+        location: "Valle del Turabo, Puerto Rico",
+        size: "Single Family Home",
+        firm: "Freelance Architectural Design, Brooklyn",
         description: "",
         images: ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg", "7.jpg", "8.jpg", "9.jpg", "10.jpg", "11.jpg", "12.jpg", "13.jpg", "14.jpg", "15.jpg", "16.jpg", "17.jpg", "18.jpg", "19.jpg", "20.jpg", "21.jpg"]
     },
     {
-        id: "0000",
+        id: "0180",
         code: "Tb",
-        name: "N/A",
-        location: "N/A",
-        size: "N/A",
-        firm: "N/A",
+        name: "Tumbamos Folly",
+        location: "Temporary Installation",
+        size: "400 sq. ft.",
+        firm: "Freelance Architectural Design, Brooklyn",
         description: "",
         images: ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg", "7.jpg", "8.jpg", "9.jpg", "10.jpg", "11.jpg", "12.jpg", "13.jpg", "14.jpg", "15.jpg", "16.jpg", "17.jpg", "18.jpg", "19.jpg", "20.jpg", "21.jpg", "22.jpg"]
     },
     {
-        id: "0000",
+        id: "0190",
         code: "To",
-        name: "N/A",
-        location: "N/A",
-        size: "N/A",
-        firm: "N/A",
+        name: "Laperse Retail",
+        location: "Hato Rey, Puerto Rico",
+        size: "500 sq. ft.",
+        firm: "Freelance Architectural Design, Brooklyn",
         description: "",
         images: ["1.jpg", "2.jpg", "3.jpg", "4.jpg"]
     },
     {
         id: "0100",
-        code: "Ao",
+        code: "AO",
         name: "AdLO House",
         location: "Barrio Culebrinas, San Sebastián, Puerto Rico",
         size: "Sustainable - Single Family Home, 3K sq. ft.",
@@ -93,10 +93,10 @@ const portfolio = [
     {
         id: "070",
         code: "Ai",
-        name: "MIT Physics Hall",
-        location: "Vassar Street, Cambridge, Massachusetts",
-        size: "Thought Experiment Live-Study Hybrid",
-        firm: "Steven Holl Studio, GSAPP, Columbia University",
+        name: "Seoul International Finance Centre",
+        location: "Yeouido District, Seoul, South Korea",
+        size: "Mixed-Use Complex, 5M sq. ft.",
+        firm: "Arquitectonica International Corporation",
         description: "This project, set on a 10,000-pyeong (1 pyeong equals 3.3 square meters) contruction site in the center of the Yeouido Island, is a $1.6 billion world class building complex intended to reinvent Seoul’s city identity. Faced on 8.17 acres of land facing Yeouido Park, and scheduled to completition in 2013, this mixed-use complex will be comprised of three office towers, a five-star hotel, a retail mall, fine dining and considerable new outdoor public spaces. The project aspires to become a defining landmark of Korea and help in the revitalization of the island, that houses also the headquarters of many Korean financial institutions and the National Assembly. To experience this project, represented the opportunity to be exposed to an international team and a superb team cross-functional design experience.",
         images: ["1.jpg", "6.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg"]
     },
@@ -104,9 +104,9 @@ const portfolio = [
         id: "080",
         code: "Ph",
         name: "MIT Physics Hall",
-        location: "Yeouido District, Seoul, South Korea",
-        size: "Mixed-Use Complex, 5M sq. ft.",
-        firm: "Arquitectonica International Corporation",
+        location: "Vassar Street, Cambridge, Massachusetts",
+        size: "Thought Experiment Live-Study Hybrid",
+        firm: "Steven Holl Studio, GSAPP, Columbia University",
         description: "This proposal was the result of several and intense material studies that were transformed into programmatic and architectural reality. In this sense the particular uses for a live-study facility at the significantly expansive MIT campus was understood as a plastic malleable component that allowed the formulation of new programmatic conditions. The idea of the structure holding this program was explored through the use of various laser cutter techniques. A section analysis study helped to redefine the morphology of the project and reformulate the new programmatic conditions. This exercise attempted to address the issue of plasma as a constructive/concept generator material. Being the prevailing state of matter, the so called fourth state is abundantly present throughout the known universe. Plasma is an exception in planet Earth, but have different manifestations for example in Aurora Borealis (Northern Light), fire, flourescent lights, Tokmaks, etc. Using these initial ideas about plasma, PMC-121 rubber was selected as a similar-in-performance and more manageable material for experimentation. The rubber was manipulated and tested in performance and structural capabilities through diffe- rent casting experimentations.",
         images: ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg", "7.jpg", "8.jpg", "9.jpg", "10.jpg", "11.jpg", "12.jpg", "13.jpg", "14.jpg", "15.jpg", "16.jpg", "17.jpg", "18.jpg", "19.jpg", "20.jpg", "21.jpg", "22.jpg", "23.jpg"]
     },
@@ -138,7 +138,7 @@ const portfolio = [
         size: "Plug and Play Sport-Leisure Field",
         firm: "Lise Ann Couture, GSAPP, Columbia University",
         description: "This project focused specifically on new proposals for the West Side Stadium building, and challenged formal preconceptions while critically engaging the surrounding urban context both physically and culturally. After dedicating some time examining the history of the stadium typology up to recent developments on this typology, a ‘borderless’ urban approach was suggested. This ‘borderless’ condition intended both to erase the Hudson River frontier to the west and the significant urban barrier that is 11th Avenue to create a plug-and-play strategy in which the stadium became the most important magnet. The notion of a contained stadium was disrupted with a sport facility that would integrate the surrounding urban parks, water venues and pedestrian corridors conforming the bigger urban strategy into the stadium field itself. The concept of “urban tailgating” is the best evidence of this strategy. ",
-        images: ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg", "7.jpg", "8.jpg", "9.jpg", "10.jpg", "11.jpg", "12.jpg", "13.jpg", "14.jpg", "15.jpg", "16.jpg", "17.jpg", "18.jpg", "19.jpg", "20.jpg", "21.jpg"]
+        images: ["3.jpg", "1.jpg", "2.jpg", "4.jpg", "5.jpg", "6.jpg", "7.jpg", "8.jpg", "9.jpg", "10.jpg", "11.jpg", "12.jpg", "13.jpg", "14.jpg", "15.jpg", "16.jpg", "17.jpg", "18.jpg", "19.jpg", "20.jpg", "21.jpg"]
     },
     {
         id: "0050",
@@ -186,7 +186,7 @@ const portfolio = [
         name: "Casona Cultural Center",
         location: "Downtown San Sebastian, San Sebastian, Puerto Rico",
         size: "Mixed-Use Micro-Tower, 8K sq. ft.",
-        firm: "Freelance Architectural Design, Brooklyn",
+        firm: "Freelance Architectural Design, with Designer Doel Fresse, Brooklyn",
         description: "",
         images: ["1.jpg", "2.jpg", "3.jpg"]
     },
@@ -218,7 +218,7 @@ const portfolio = [
         size: "Mixed-Used Skyscraper, 550K sq. ft.",
         firm: "TEN Arquitectos, New York",
         description: "",
-        images: ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg", "7.jpg"]
+        images: ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg", "7.jpg", "8.jpg", "9.jpg"]
     },
     {
         id: "0117",
@@ -228,7 +228,7 @@ const portfolio = [
         size: "Young Architects Perspective Panel",
         firm: "52nd World Congress, Invited Speaker",
         description: "",
-        images: ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg", "7.jpg", "8.jpg"]
+        images: ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg"]
     },
     {
         id: "0114",
@@ -248,7 +248,7 @@ const portfolio = [
         size: "Coarse 'Site-Specific' Installation/Shelter",
         firm: "Summer Workshop, Universität der Künste/ Sci-Arc",
         description: "",
-        images: ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg", "7.jpg", "8.jpg", "9.jpg", "10.jpg", "11.jpg", "12.jpg", "13.jpg", "14.jpg", "15.jpg", "16.jpg", "17.jpg", "18.jpg", "19.jpg", "20.jpg", "21.jpg", "22.jpg"]
+        images: ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg", "8.jpg", "9.jpg", "10.jpg", "11.jpg", "12.jpg", "13.jpg", "14.jpg", "15.jpg", "16.jpg", "17.jpg", "18.jpg", "19.jpg", "20.jpg", "21.jpg", "22.jpg"]
     },
 ]
 
