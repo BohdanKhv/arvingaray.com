@@ -6,9 +6,7 @@ const user = {
     instagram: "https://www.instagram.com/arvin.garay",
     linkedin: "https://www.linkedin.com/in/arvingaray",
     address: "Brooklyn, New York, USA",
-    about: `Objectives: Become a member of a superb design-driven team, that allows the use of various design, management and supervision skills with industry, work ethics and audacity. Continue solidifying experience in the challenging discipline of Architecture. Joining painstaking organization wide-awake of sustainability issues is a plus.
-    \n
-    Over the course of the past years I have diversified my resume with further experience in different areas of the architectural profession. I now have under my belt plenty of experience in Project Management, Supervision, Construction Administration, Bidding and Negotiation as well as specialized exposure to the fields of Building Sciences, Forensic Architecture, Litigation of construction-related cases, as well as expertise in Waterproofing, Roofing and Building Envelope. 
+    about: `Over the course of the past years I have diversified my resume with further experience in different areas of the architectural profession. I now have under my belt plenty of experience in Project Management, Supervision, Construction Administration, Bidding and Negotiation as well as specialized exposure to the fields of Building Sciences, Forensic Architecture, Litigation of construction-related cases, as well as expertise in Waterproofing, Roofing and Building Envelope. 
     \n
     I am also certified (30 hours) with the Occupational Safety and Health Administration (OSHA), I am registered as a Class-1 Filing Representative with the New York City Department of Buildings (DOB), have experience with the NYC Landmark Preservation Commission (LPC), as well as scaffold trained to conduct Façade Inspection & Safety Program (FISP) inspections throughout the city. All of the above are very NYC-specific credentials, with projects of all kinds of scope, including high profile residential one-family homes, multi-family residential buildings, as well public buildings involving government agencies like the New York City Housing Authority (NYCHA), the City University of New York (CUNY), the Dormitory Authority of the State of New York (DASNY) and the NYC Department of Sanitation (DSNY). 
     \n
@@ -248,7 +246,7 @@ const portfolio = [
         size: "Coarse 'Site-Specific' Installation/Shelter",
         firm: "Summer Workshop, Universität der Künste/ Sci-Arc",
         description: "",
-        images: ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg", "8.jpg", "9.jpg", "10.jpg", "11.jpg", "12.jpg", "13.jpg", "14.jpg", "15.jpg", "16.jpg", "17.jpg", "18.jpg", "19.jpg", "20.jpg", "21.jpg", "22.jpg"]
+        images: ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg", "9.jpg", "10.jpg", "11.jpg", "12.jpg", "13.jpg", "14.jpg", "15.jpg", "16.jpg", "17.jpg", "18.jpg", "19.jpg", "20.jpg", "21.jpg", "22.jpg"]
     },
 ]
 
