@@ -30,9 +30,8 @@ const About = () => {
                 )}
                 <div>
                     <span className="title">
-                        {user.name.toUpperCase()}
+                        {user.name.toUpperCase()}<span className="blink bold">{'  '}/</span>
                     </span>
-                    <br />
                     <h4 className="title-secondary mt-50">
                         {user.occupation.split(' | ').map((item, index) => (
                             <span key={`${index}-occupation`}>
@@ -44,7 +43,7 @@ const About = () => {
                 </div>
             </div>
             <div className="mt-50">
-                <p className="about h-100">
+                <p className="about">
                     {user.about.slice(0, showLetter)}
                     <span className="blink">|</span>
                     <span className="opacity-none">{user.about.slice(showLetter)}</span>

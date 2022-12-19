@@ -12,7 +12,7 @@ const Projects = () => {
     return (
         <section className="projects">
             <span className="title">
-                PROJECTS
+                projects <div className="blink cube"></div>
             </span>
             <div className="projects-container mt-50">
                 {portfolio.map((item, index) => (

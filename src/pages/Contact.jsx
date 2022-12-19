@@ -10,7 +10,7 @@ const Contact = () => {
   return (
     <section>
       <span className="title">
-          CONTACT
+          contact <div className="blink cube"></div>
       </span>
       <div className="flex flex-column mt-50 gap-40">
         <a href={`mailto:${user.email}`} className="link" 
