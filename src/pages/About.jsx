@@ -4,18 +4,11 @@ import Img from '../components/Img'
 import { user } from '../data'
 
 const About = () => {
-    const [showLetter, setShowLetter] = useState(1)
     const location = useLocation()
 
     useEffect(() => {
         window.scrollTo(0, 0)
         document.title = `Arvin Garay | About Me | Portfolio | Architect | Project Manager | Designer | Building Science`
-
-        const interval = setInterval(() => {
-            setShowLetter((prev) => prev + 1)
-        }, 1)
-
-        return () => clearInterval(interval)
     }, [])
 
     return (
@@ -44,9 +37,8 @@ const About = () => {
             </div>
             <div className="mt-50">
                 <p className="about">
-                    {user.about.slice(0, showLetter)}
+                    {user.about}
                     <span className="blink">|</span>
-                    <span className="opacity-none">{user.about.slice(showLetter)}</span>
                 </p>
             </div>
         </section>

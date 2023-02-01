@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from 'react'
+import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
 import './styles/Img.css'
 
 const Img = ({img, alt, onClick, className, style, bigDisplay}) => {
@@ -45,11 +46,26 @@ const Img = ({img, alt, onClick, className, style, bigDisplay}) => {
             {bigDisplay && isBigDisplay && (
                 <div className="img-big-display">
                     <div className="img-big-display-container">
-                        <img
-                            onClick={isLoading ? null : onClick ? onClick : null}
-                            src={img}
-                            alt={alt}
-                        />
+                        <div style={{
+                            backgroundColor: 'rgba(0, 0, 0, 0.25)',
+                        }}>
+                        <TransformWrapper
+                            initialScale={1}
+                            minScale={1}
+                        >
+                            <TransformComponent>
+                                <div className="flex align-center justify-center">
+                                    <img
+                                        onClick={isLoading ? null : onClick ? onClick : null}
+                                        src={img}
+                                        alt={alt}
+                                        style={{pointerEvents: 'initial'}}
+                                    />
+                                </div>
+                            </TransformComponent>
+                        </TransformWrapper>
+                            
+                            </div>
                     </div>
                 </div>
             )}
